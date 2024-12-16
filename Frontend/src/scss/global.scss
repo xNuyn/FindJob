@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'utils';
+@import 'fonts';
+@import 'common';
+
+$color-border: #dcdcdc; 
+$primary-color: #0066ff; 
+$secondary-color: #0055cc; 
+$font-size-base: 14px;
+$font-size-large: 16px;
+$font-weight-semibold: 600;
+$border-radius: 4px;
+$box-shadow-light: 0px 2px 10px rgba(0, 0, 0, 0.1);
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: $font-size-base;
+  color: #333;
+  background-color: #f1f2f4;
+}
+@mixin rounded($radius: $border-radius) {
+  border-radius: $radius;
+}

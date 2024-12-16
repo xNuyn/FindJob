@@ -1,0 +1,45 @@
+
+.Beecome .Beecomewrapper{
+display: flex;
+align-items: center;
+gap: 24px;
+justify-content: center;
+
+}
+.Beecome .box{
+    padding: 50px 50px;
+    border-radius: 12px ;
+    opacity: 0px;
+}
+.Beecome .title{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    color: #191F33;
+    
+}
+.Beecome .mota{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    
+}
+.Beecome .buttonbee{
+padding: 12px 24px 12px 24px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+
+background-color: #FFFFFF;
+color: #0A65CC;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+width: max-content;
+display: flex;
+align-items:  center;
+gap: 12px;
+margin: 20px  0;
+}

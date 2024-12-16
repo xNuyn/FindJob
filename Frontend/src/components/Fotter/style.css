@@ -1,0 +1,21 @@
+.wrapperfotter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .boxft .title {
+    margin-bottom: 8px;
+  }
+  
+  .boxft .link,
+  .boxft .call,
+  .boxft .address {
+    margin-top: 4px;
+    color: #b0b0b0;
+  }
+  
+  .boxft .link:hover {
+    color: #ffffff;
+  }
+  

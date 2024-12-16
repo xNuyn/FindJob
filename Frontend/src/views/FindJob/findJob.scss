@@ -1,0 +1,107 @@
+@import '../../scss/global.scss';
+
+.find-job {
+    padding: 12px 0 24px;
+    background-color: #f1f2f4;
+    &-title {
+        width: 1280px;
+        margin: 0 auto;
+    }
+    &-details {
+        position: relative;
+        .form-find-job {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr 1fr;
+            width: 1280px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            justify-content: center;
+            padding: 12px;
+            .ant-input {
+                padding: 6px;
+                font-size: 14px;
+                font-weight: 500;
+                color: $color-date;
+            }
+            .ant-input-affix-wrapper {
+                border-radius: 4px;
+            }
+            .ant-btn {
+                border-radius: 4px;
+                height: 42px;
+                span {
+                    font-weight: 600;
+                }
+            }
+            .ant-form-item-control-input {
+                text-align: center;
+                font-weight: 500;
+                color: #767e94;
+            }
+            .ant-form-item {
+                margin-bottom: 0;
+                width: 100%;
+            }
+        }
+        .dropdown--label {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            gap: 8px;
+            color: $color-date;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            &:hover {
+                opacity: 0.7;
+            }
+        }
+        .active {
+            color: #0066ff;
+        }
+        .dropdown--menu {
+            width: 1280px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            position: absolute;
+            top: 70px;
+            left: 0;
+            right: 0;
+            background-color: #fff;
+            padding: 16px 24px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            z-index: 1000;
+            .options--group {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+            }
+            .dropdown--item {
+                padding-left: 30px;
+                &:not(:last-child) {
+                    border-right: 1px solid $color--border;
+                }
+            }
+        }
+    }
+    &-alls {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 12px;
+        width: 1280px;
+        margin: auto;
+        margin-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; // Adjust height as needed
+}

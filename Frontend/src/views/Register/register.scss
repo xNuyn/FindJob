@@ -1,0 +1,31 @@
+@import '../../scss/global.scss';
+
+.register {
+    margin-top: 60px;
+    width: 90%;
+    &--to-login {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-family: $font-inter;
+    }
+    &__form--name {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .ant-input,
+    .ant-input-password {
+        padding: 6px 11px;
+        font-size: 14px;
+        font-weight: 500;
+        color: $color-date;
+    }
+    .ant-form-item {
+        margin-bottom: 16px;
+    }
+    .ant-btn {
+        width: 100%;
+        height: 42px;
+        font-size: 16px;
+    }
+}

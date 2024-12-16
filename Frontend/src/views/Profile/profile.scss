@@ -1,0 +1,78 @@
+// Import global styles
+@use '../../scss/global' as *;
+
+.settings-page {
+    padding: 24px 0;
+    background-color: #f1f2f4;
+    width: 1280px;
+    margin: 0 auto;
+
+    .settings-form {
+        background-color: #fff;
+        padding: 24px;
+        border-radius: 8px;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 16px;
+
+            .form-row {
+                display: flex;
+                gap: 16px;
+
+                .ant-form-item {
+                    flex: 1;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+        .ant-upload-list {
+            display: none;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-right: 16px;
+        }
+
+        .ant-select, .ant-picker, .ant-input, .ant-input-textarea {
+            width: 100%;
+            font-size: 16px;
+            padding: 12px;
+            border-radius: 4px;
+            border: 1px solid $color-border;
+        }
+
+        .ant-select-selector {
+            border: none;
+            box-shadow: none;
+            background-color: transparent;
+            padding: 0;
+        }
+
+        .ant-input-textarea {
+            resize: none;
+        }
+
+        .ant-btn {
+            width: 100%;
+            height: 42px;
+            border-radius: 4px;
+            background-color: #0066ff;
+            border: none;
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+            transition: background-color 0.2s ease-in;
+
+            &:hover {
+                background-color: #0055cc;
+            }
+        }
+    }
+}

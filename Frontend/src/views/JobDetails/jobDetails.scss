@@ -1,0 +1,172 @@
+@import '../../scss/global.scss';
+
+.job-details {
+    background-color: #f1f2f4;
+    &-label {
+        padding: 24px 0;
+        width: 1280px;
+        margin: 0 auto;
+    }
+    &-content {
+        width: 1280px;
+        padding: 24px 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        .job-title {
+            h4 {
+                font-size: 24px;
+                font-weight: 500;
+            }
+            span {
+                display: inline-block;
+                padding: 6px 12px;
+                border-radius: 24px;
+                font-size: 14px;
+            }
+            .featured {
+                background-color: #ffeded;
+                color: #ff4f4f;
+            }
+            .fullTime {
+                background-color: #e8f1ff;
+                color: #0066ff;
+            }
+        }
+        .apply-btn {
+            .btn-save {
+                display: inline-block;
+                padding: 4px;
+                cursor: pointer;
+                border-radius: 8px;
+                background-color: #e8f1ff;
+            }
+            .ant-btn {
+                width: 200px;
+                background-color: #0a65cc;
+                height: 36px;
+            }
+            .expired-date {
+                span {
+                    font-size: 14px;
+                    &:first-child {
+                        color: #767f8c;
+                    }
+                    &:last-child {
+                        color: #e05151;
+                    }
+                }
+            }
+        }
+    }
+    &-description {
+        width: 1280px;
+        margin: 0 auto;
+        .job-description {
+            width: 60%;
+            h3 {
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 10px;
+            }
+            p {
+                line-height: 24px;
+                color: #5e6670;
+                font-size: 16px;
+            }
+        }
+        .job-list-items {
+            margin-top: 20px;
+            ul {
+                color: #5e6670;
+                padding-left: 16px;
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .job-information {
+            .job-overview {
+                padding: 32px;
+                border: 2px solid #e7f0fa;
+                border-radius: 8px;
+                h3 {
+                    font-size: 18px;
+                    font-weight: 500;
+                    margin-bottom: 20px;
+                }
+                &-list {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 40px;
+                }
+            }
+            .social-overview {
+                padding: 32px;
+                border: 2px solid #e7f0fa;
+                border-radius: 8px;
+                .social-name {
+                    h3 {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
+                    p {
+                        font-size: 14px;
+                        color: #767f8c;
+                    }
+                }
+                &-infor-item {
+                    font-size: 16px;
+                    span {
+                        &:first-child {
+                            color: #5e6670;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-related {
+        width: 1280px;
+        margin: 0 auto;
+        padding: 40px 0;
+        h2 {
+            margin-bottom: 20px;
+            font-size: 32px;
+            font-weight: 500;
+        }
+        .job-related {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+        }
+    }
+}
+
+.overview-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .label {
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 400;
+        color: #767f8c;
+    }
+    .data {
+        font-weight: 500;
+        font-size: 14px;
+    }
+}
+
+.ant-form-item-label > label {
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: 600;
+}
+.ant-input {
+    width: 100%;
+    height: 32px;
+    color: $color-date;
+    font-weight: 500;
+    font-size: 15px;
+}

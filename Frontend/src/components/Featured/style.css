@@ -1,0 +1,97 @@
+.text-job{
+font-family: Inter;
+font-size: 40px;
+font-weight: 500;
+line-height: 48px;
+text-align: center;
+
+}
+
+.v-all{
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+padding: 12px;
+color: #0A65CC;
+
+
+}
+
+.wrapperfetu{
+ width: 1320px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+.wrapper-box{
+display: flex;
+justify-content: space-between;
+padding: 10px 14px;
+align-items: center;
+padding: 32px;
+margin: 24px 0;
+border: 1px solid #EDEFF5;
+}
+.icon{
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+.title-img{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    
+}
+.mota-img{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    
+}
+
+.icon img{
+    width: 68px;
+    object-fit: contain;
+}
+
+
+
+.applynow{
+display: flex;
+gap: 8px;
+align-content: center;
+
+}
+.iconluu{
+display: flex;
+gap: 5px;
+align-items: center;
+
+}
+.btn-apply{
+display: flex;
+gap: 10px;
+align-items: center;
+background: #0A65CC;
+padding: 12px 24px;
+font-size: 16px;
+font-weight: 600;
+color: white;
+line-height: 24px;
+text-align: left;
+}
+
+
+
+.applynow svg{
+    font-size: 16px;
+    color :white;
+    background-color: #0A65CC;
+}

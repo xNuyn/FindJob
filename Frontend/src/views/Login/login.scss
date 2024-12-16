@@ -1,0 +1,36 @@
+@import '../../scss/global.scss';
+
+.login {
+    margin-top: 80px;
+    &--to-register {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-family: $font-inter;
+    }
+    &--footer {
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .ant-col {
+        width: 80% !important;
+    }
+    .ant-input,
+    .ant-input-password {
+        height: 42px;
+        padding: 6px 11px;
+        font-size: 14px;
+        color: $color-date;
+        font-weight: 500;
+        align-items: center;
+    }
+    .ant-form-item {
+        margin-bottom: 16px;
+    }
+    .ant-btn {
+        width: 100%;
+        height: 42px;
+        font-size: 16px;
+    }
+}

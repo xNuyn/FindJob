@@ -1,0 +1,55 @@
+.titlecompanies{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-left: 12rem;
+    margin-bottom: 2rem;
+
+}
+.wrapperbox {
+    border: 1px solid #EDEFF5;
+    border-radius: 12px;
+    padding: 32px;
+}
+.wrapperbox .box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+.wrapperbox .icon{
+    background: #EA4C89;
+padding: 16px;
+border-radius: 4px;
+
+
+}
+.wrapperbox .textbox{
+  
+
+}
+
+.wrapperbox .ttile{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+}
+.wrapperbox .mota{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+
+}
+.wrapperbox .buttonbox{
+    background: #E7F0FA;
+padding: 12px 24px;
+text-align: center;
+margin: 10px 0;
+color: #0A65CC;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+
+border-radius: 3px;
+}
